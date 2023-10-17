@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-correct_code = '1234'
+correct_code = '9508'
 code = ''
 
 @app.route('/static/<path:filename>')
